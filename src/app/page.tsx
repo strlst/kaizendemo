@@ -16,16 +16,16 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <span className="text-3xl">⛩️</span>
             <div>
-              <span className="text-2xl font-bold tracking-tighter">Kaizen Demo</span>
-              <span className="block text-xs -mt-1 opacity-75">改善デモ</span>
+              <span className="text-2xl font-bold tracking-tighter">改善デモ</span>
+              <span className="block text-xs -mt-1 opacity-75">Kaizen Demo</span>
             </div>
           </div>
           <a
-            href="https://github.com/strlst/kaizendemo"
+            href="https://github.com/strlst"
             target="_blank"
             className="px-6 py-2.5 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl text-sm font-medium transition-all hover:scale-105"
           >
-            View Pipeline on GitHub
+            GitHubでstrlstを見る
           </a>
         </nav>
 
@@ -44,9 +44,13 @@ export default function Home() {
             </p>
 
             <div className="space-y-3 mb-12">
+              <p className="text-3xl font-medium text-white">改善デモ</p>
               <p className="text-3xl font-medium text-white">Kaizen Demo</p>
               <p className="text-xl text-white/80 max-w-md mx-auto">
-                A living example of DevOps excellence
+                静的サイトの自動デプロイ
+              </p>
+              <p className="text-xl text-white/80 max-w-md mx-auto">
+                Automatic static site self-deployment
               </p>
             </div>
 
@@ -54,7 +58,10 @@ export default function Home() {
             <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl px-6 py-3 mb-10">
               <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
               <p className="text-sm text-white/90">
-                Photo by me, Suwa Taisha Torii Gate, Nagano • 2025.08.03
+              </p>
+              <p className="text-sm text-white/90">
+                日本 長野県 諏訪市 諏訪大社 下社 春宮 • 2025.08.03 • 自分で撮りました
+                Japan, Nagano Prefecture, Suwa City, Suwa Taisha (Lower Shrine), Harumiya • 2025.08.03 • Personal Photo
               </p>
             </div>
 
@@ -81,13 +88,13 @@ export default function Home() {
         {/* Footer */}
         <footer className="py-10 text-center text-white/70 text-sm">
           <p>
+            静的なNext.jsサイト • GitHub Pagesでデプロイ • ❤でウィーンで日本リクルータへ創作しました
+          </p>
+          <p>
             Static Next.js site • Deployed to GitHub Pages • Made with ❤ in Vienna for Japanese recruiters
           </p>
           <p className="mt-2 text-xs opacity-60">
             改善は永遠に続く
-          </p>
-          <p className="mt-2 text-xs opacity-60">
-            Personal photo taken in Suwa, Japan • 2025.08.03
           </p>
         </footer>
       </div>
