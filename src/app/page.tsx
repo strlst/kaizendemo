@@ -1,8 +1,10 @@
 export default function Home() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/kaizendemo' : '';
+
   return (
     <main
       className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col relative"
-      style={{ backgroundImage: "url('/images/suwa-torii.jpg')" }}
+      style={{ backgroundImage: `url('${basePath}/images/suwa-torii.jpg')` }}
     >
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80" />
@@ -64,12 +66,14 @@ export default function Home() {
               >
                 See the CI/CD Pipeline
               </a>
+              {/*
               <a
                 href="#about"
                 className="px-10 py-5 border-2 border-white/70 hover:border-white text-white rounded-3xl font-semibold text-lg transition-all hover:bg-white/10"
               >
                 Learn Kaizen Principles
               </a>
+              */}
             </div>
           </div>
         </div>
