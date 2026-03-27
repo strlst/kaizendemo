@@ -56,12 +56,8 @@ export default function Home() {
 
             {/* Personal touch - your photo credit */}
             <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl px-6 py-3 mb-10">
-              <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
               <p className="text-sm text-white/90">
-              </p>
-              <p className="text-sm text-white/90">
-                日本 長野県 諏訪市 諏訪大社 下社 春宮 • 2025.08.03 • 自分で撮りました
-                Japan, Nagano Prefecture, Suwa City, Suwa Taisha (Lower Shrine), Harumiya • 2025.08.03 • Personal Photo
+                日本 長野県 諏訪市 諏訪大社 下社 春宮 • 2025年08月03日 • 自分で撮りました
               </p>
             </div>
 
