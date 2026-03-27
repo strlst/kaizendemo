@@ -36,10 +36,10 @@ export default function Home() {
               <span className="text-7xl">🌸</span>
             </div>
 
-            <h1 className="text-6xl md:text-7xl font-bold tracking-tighter text-white mb-4">
+            <h1 className="text-6xl lg:text-7xl font-bold tracking-tighter text-white mb-4">
               こんにちは、世界！
             </h1>
-            <p className="text-5xl md:text-6xl font-light text-white/90 mb-8">
+            <p className="text-5xl lg:text-6xl font-light text-white/90 mb-8">
               Hello, World!
             </p>
 
@@ -67,7 +67,7 @@ export default function Home() {
                 target="_blank"
                 className="px-10 py-5 bg-white text-black rounded-3xl font-semibold text-lg hover:scale-105 active:scale-95 transition-all shadow-xl"
               >
-                See the CI/CD Pipeline
+                CI/CDのPipelineを見る
               </a>
               {/*
               <a
